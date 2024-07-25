@@ -1,4 +1,4 @@
-<h1>Desafio Frontend Mentor - Advice Card</h1>
+<h1>Desafio Frontend Mentor</h1>
 Este projeto é uma solução para o desafio Agency landing page do site Frontend Mentor. Ele consiste em uma Landing Page de uma agência fictícia. 
 
 
