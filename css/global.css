@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+*,::before,::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   border: none;
+   text-decoration: none;
+}
+
+html,
+body {
+   overflow-x: hidden;
+}
+
+html {
+   font-size: 10px;
+   scroll-behavior: smooth;
+}
+
+ul {
+   list-style: none;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+:root {
+
+   --first-font: "Barlow", sans-serif;
+   --second-font: "Fraunces", serif;
+   --size-font: 1.8rem;
+   --semi-font: 600;
+   --bold-font: 700;
+   --black-font: 900;
+
+
+   --soft-red: hsl(7, 99%, 70%);
+   --yellow: hsl(51, 100%, 49%);
+   --dark-desaturated-cyan: hsl(167, 40%, 24%);
+   --dark-blue: hsl(198, 62%, 26%);
+   --dark-moderate-cyan: hsl(168, 34%, 41%);
+
+   --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+   --very-dark-grayish-blue: hsl(213, 9%, 39%);
+   --dark-grayish-blue: hsl(232, 10%, 55%);
+   --grayish-blue: hsl(210, 4%, 67%);
+   --white: hsl(0, 0%, 100%);
+
+   --header-blue: hsl(200, 100%, 62%);
+   --header-blue-hover: hsl(200, 100%, 70%);
+   --footer-green: hsl(167, 44%, 70%);
+}
+
+body {
+   font-family: var(--first-font);
+   font-size: var(--size-font);
+   font-weight: var(--semi-font);
+   background-color: var(--white);
+   color: var(--dark-grayish-blue);
+   margin: 0;
+}
